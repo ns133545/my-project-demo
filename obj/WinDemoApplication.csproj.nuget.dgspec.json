@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProject\\WinDemoApplication\\WinDemoApplication.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProject\\WinDemoApplication\\WinDemoApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProject\\WinDemoApplication\\WinDemoApplication.csproj",
+        "projectName": "WinDemoApplication",
+        "projectPath": "D:\\MyProject\\WinDemoApplication\\WinDemoApplication.csproj",
+        "packagesPath": "C:\\Users\\nitin.sharma\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\WinDemoApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v6\\",
+          "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nitin.sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Users\\nitin.sharma\\Downloads\\C1DataConnector_1.0.20232.164-hotfix_2023v2 (1)\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "C1.Win.C1Input": {
+              "target": "Package",
+              "version": "[4.8.20232.620, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

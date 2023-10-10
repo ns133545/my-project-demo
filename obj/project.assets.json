@@ -1,0 +1,420 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "C1.Win/4.8.20232.620": {
+        "type": "package",
+        "compile": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.targets": {}
+        }
+      },
+      "C1.Win.C1Command/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Command.targets": {}
+        }
+      },
+      "C1.Win.C1Input/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win.C1Command": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Input.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "C1.Win/4.8.20232.620": {
+        "type": "package",
+        "compile": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.targets": {}
+        }
+      },
+      "C1.Win.C1Command/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Command.targets": {}
+        }
+      },
+      "C1.Win.C1Input/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win.C1Command": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Input.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "C1.Win/4.8.20232.620": {
+        "type": "package",
+        "compile": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.targets": {}
+        }
+      },
+      "C1.Win.C1Command/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Command.targets": {}
+        }
+      },
+      "C1.Win.C1Input/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win.C1Command": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Input.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "C1.Win/4.8.20232.620": {
+        "type": "package",
+        "compile": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.targets": {}
+        }
+      },
+      "C1.Win.C1Command/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Command.targets": {}
+        }
+      },
+      "C1.Win.C1Input/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win.C1Command": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Input.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "C1.Win/4.8.20232.620": {
+        "type": "package",
+        "compile": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.targets": {}
+        }
+      },
+      "C1.Win.C1Command/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Command.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Command.targets": {}
+        }
+      },
+      "C1.Win.C1Input/4.8.20232.620": {
+        "type": "package",
+        "dependencies": {
+          "C1.Win.C1Command": "4.8.20232.620"
+        },
+        "compile": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/C1.Win.C1Input.4.8.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net48/C1.Win.C1Input.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C1.Win/4.8.20232.620": {
+      "sha512": "Yj7Y5Hi6cMl/s4gv2csPGCIVu96a1Ep5GnwJHYJ6owr19+Ydypy1DLMFKRinQrVut7Q+2rt14Eft2dZizPNTBQ==",
+      "type": "package",
+      "path": "c1.win/4.8.20232.620",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net48/C1.Win.targets",
+        "buildTransitive/netcoreapp/C1.Win.targets",
+        "c1.win.4.8.20232.620.nupkg.sha512",
+        "c1.win.nuspec",
+        "docs/readme.md",
+        "images/C1logo_nuget.png",
+        "lib/net48/C1.Win.4.8.dll",
+        "lib/net48/C1.Win.4.8.xml",
+        "license_EN.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "C1.Win.C1Command/4.8.20232.620": {
+      "sha512": "xFVppo+sZLvHRmMyb3PcAfV60ZsjW+AMJycwQzGg7B4f6JP1r+jOFIPcKwhyybORaMTLHjdyTz1BPZ0Oi+ho8g==",
+      "type": "package",
+      "path": "c1.win.c1command/4.8.20232.620",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net48/C1.Win.C1Command.targets",
+        "buildTransitive/netcoreapp/C1.Win.C1Command.targets",
+        "c1.win.c1command.4.8.20232.620.nupkg.sha512",
+        "c1.win.c1command.nuspec",
+        "docs/readme.md",
+        "images/C1logo_nuget.png",
+        "lib/net48/C1.Win.C1Command.4.8.dll",
+        "lib/net48/C1.Win.C1Command.4.8.xml",
+        "license_EN.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "C1.Win.C1Input/4.8.20232.620": {
+      "sha512": "+F2w3kc2NaMO7u5bF2MielC3A9J9EwYkuMNgiTUFQyW4UuGQmtJ8EN2itdRAS+CDsHC9hxJkF3mdlnjb5cBDeA==",
+      "type": "package",
+      "path": "c1.win.c1input/4.8.20232.620",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net48/C1.Win.C1Input.targets",
+        "buildTransitive/netcoreapp/C1.Win.C1Input.targets",
+        "c1.win.c1input.4.8.20232.620.nupkg.sha512",
+        "c1.win.c1input.nuspec",
+        "docs/readme.md",
+        "images/C1logo_nuget.png",
+        "lib/net48/C1.Win.C1Input.4.8.dll",
+        "lib/net48/C1.Win.C1Input.4.8.xml",
+        "license_EN.txt",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "C1.Win.C1Input >= 4.8.20232.620"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nitin.sharma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v6\\": {},
+    "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\MyProject\\WinDemoApplication\\WinDemoApplication.csproj",
+      "projectName": "WinDemoApplication",
+      "projectPath": "D:\\MyProject\\WinDemoApplication\\WinDemoApplication.csproj",
+      "packagesPath": "C:\\Users\\nitin.sharma\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProject\\WinDemoApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\ComponentOne\\WPF Edition\\bin\\v6\\",
+        "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nitin.sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Users\\nitin.sharma\\Downloads\\C1DataConnector_1.0.20232.164-hotfix_2023v2 (1)\\NugetPackages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "C1.Win.C1Input": {
+            "target": "Package",
+            "version": "[4.8.20232.620, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
