@@ -82,6 +82,11 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
+
+    - name: Restore Nuget packages
+      run: |
+        msbuild $env:WinDemoApplication.sln /m /p:Configuration=$env:Configuration /t:Restore
+        msbuild $env:WinDemoApplication.sln /m /p:Configuration=$env:Configuration /t:Restore
         
     #Install C1 License
     - name: Install C1 License Manager
