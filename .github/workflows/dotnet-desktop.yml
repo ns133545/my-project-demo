@@ -100,7 +100,7 @@ jobs:
     - name: Build Module
       shell: pwsh
       run: |
-        Start-Process -FilePath "C:\ProgramData\GrapeCity\gclm\gclm.exe" -ArgumentList "331cf6cd-b73c-429f-ba79-fa2f85eebd68" -a "2242543724390962231" “bunge-MERF-JP00-8KM6-XZSJ” -RedirectStandardOutput  "gclmlog.txt" -Wait
+        Start-Process -FilePath "C:\ProgramData\GrapeCity\gclm\gclm.exe" -ArgumentList "331cf6cd-b73c-429f-ba79-fa2f85eebd68 -a 2242543724390962231 bunge-MERF-JP00-8KM6-XZSJ” -RedirectStandardOutput  "gclmlog.txt" -Wait
         Get-Content gclmlog.txt
 
     - name: Setup dotnet
