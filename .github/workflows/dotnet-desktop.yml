@@ -91,17 +91,15 @@ jobs:
     #Install C1 License
     - name: Install C1 License Manager
       run: |
-        Start-Process -FilePath ${{ github.workspace }}\gclm_deploy.exe "-d"
-        Get-Content gclm_deploy_log.txt
+        Start-Process -FilePath ${{ github.workspace }}\gclm_deploy.exe -d
         Copy ${{ github.workspace }}/Package_331cf6cd.data C:\ProgramData\GrapeCity\gclm\
-        Get-Content ${{ github.workspace }}\gclm_deploy_log.txt
+
 
     - name: Build Module
       shell: pwsh
       run: |
         Start-Process -FilePath "C:\ProgramData\GrapeCity\gclm\gclm.exe" -ArgumentList "331cf6cd-b73c-429f-ba79-fa2f85eebd68 -a 2242543724390962231 bunge-MERF-JP00-8KM6-XZSJ” -RedirectStandardOutput  "gclmlog.txt" -wait
         Get-Content gclmlog.txt
-        Get-Content gclm_deploy_log.txt
 
     - name: Setup dotnet
       uses: actions/setup-dotnet@v3
