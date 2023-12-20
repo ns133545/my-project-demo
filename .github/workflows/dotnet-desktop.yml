@@ -91,7 +91,7 @@ jobs:
     #Install C1 License
     - name: Install C1 License Manager
       run: |
-        Start-Process -FilePath ${{ github.workspace }}\gclm_deploy.exe -Wait
+        Start-Process -FilePath ${{ github.workspace }}\gclm_deploy.exe
         Copy ${{ github.workspace }}/Package_331cf6cd.data C:\ProgramData\GrapeCity\gclm\
        
 
